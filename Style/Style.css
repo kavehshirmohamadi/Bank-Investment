@@ -1,0 +1,290 @@
+/* #4087C7 #184481*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Navbar */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #333333;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 1;
+}
+
+nav .logo a {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav .logo span {
+    font-family: 'vazir';
+    color: #93CB52;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Vazir';
+    padding: 10px;
+    margin: 0 5px;
+    color: white;
+}
+
+nav ul li a:hover {
+    background: #93CB52;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* header */
+
+.showcase {
+    background: url(../Image/Header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.showcase .showcase-content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+}
+
+.showcase .showcase-content h1 {
+    font-family: 'vazir';
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.showcase .showcase-content p {
+    font-family: 'vazir';
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.showcase .showcase-content a {
+    text-decoration: none;
+    font-family: 'vazir';
+    font-size: 1rem;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #93CB52;
+}
+
+.showcase .showcase-content a:hover {
+    background-color: #7ab436;
+}
+
+
+/* services */
+
+.services {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: #F4F4F4;
+}
+
+.services .container {
+    max-width: 1100px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.services .container h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-color {
+    color: #93CB52;
+}
+
+.services .container .items {
+    display: flex;
+}
+
+.services .container .items .item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+.services .container .items .item p {
+    line-height: 1.5rem;
+    margin-top: 10px;
+}
+
+.services .container .items .item i {
+    font-size: 1.5rem;
+    color: white;
+    background: #7ab436;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    padding: 20px;
+}
+
+
+/* Section Who we are */
+
+.who {
+    display: flex;
+    background: #333333;
+    color: white;
+    line-height: 1.5rem;
+}
+
+.who h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.who div {
+    flex: 1;
+}
+
+.who .who-img {
+    background: url(../Image/people.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.who .who-content {
+    padding: 20px;
+}
+
+.who .who-content h2 {
+    margin: 10px 0;
+}
+
+.who .list {
+    list-style: none;
+}
+
+.who .list li {
+    padding: 10px 0;
+    border-bottom: dotted #444 1px;
+}
+
+
+/* our Clients */
+
+.Clients {
+    display: flex;
+}
+
+.Clients div img {
+    display: block;
+    padding: 20px 0;
+    margin: auto;
+    width: 50%;
+}
+
+
+/* Contact us */
+
+.contact {
+    display: flex;
+}
+
+.contact .form {
+    background: #93CB52;
+    color: white;
+}
+
+.map {
+    flex: 1;
+}
+
+.contact .form h2 {
+    font-size: 2rem;
+    padding: 0 30px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.contact .form p {
+    padding: 0 30px;
+    margin-bottom: 20px;
+}
+
+.contact .form .form-group {
+    padding: 10px 30px;
+}
+
+.contact .form .form-group label {
+    display: block;
+    padding-bottom: 5px;
+}
+
+.contact .form .form-group input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+}
+
+.contact .form .form-group textarea {
+    width: 100%;
+    height: 80px;
+    outline: none;
+}
+
+.contact .form input[type=submit] {
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+    color: white;
+    background: #444;
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* footer */
+
+#main-footer {
+    display: block;
+    background: #333333;
+    padding: 20px;
+    text-align: center;
+}
+
+#main-footer p {
+    color: #7ab436;
+}
